@@ -1,0 +1,605 @@
+﻿
+ BODY #s4-leftpanel-content, BODY #s4-ribbonrow {
+        display: none;
+    }
+      .tomsTTAIcon
+    {
+		max-width: 100%;
+		max-height: 106px !important;
+		width: auto;
+		height: auto;
+		display:inline !important;
+		
+	}
+
+    .sessionGreen
+    {
+      color:white;font-size: 55px;
+    }
+    .sessionGreen1
+    {
+      color:white;font-size: 45px;
+    }
+    .lblPopupData
+		{
+			
+			font-size: 35px !important;
+		
+		}
+  .declareCss
+      {
+          padding:10px;background:yellow;font-size:18px;color:red;
+      }
+
+     .divButton
+    {
+		text-align: center; 
+		font-size: 28px;
+	}
+
+	.aButtonNewSubmit{		 
+        text-decoration: none; cursor: pointer;
+        text-decoration: underline !important;
+        font-size: 19px;
+	}
+	.divButtonNewsubmit
+	 {
+		text-align: center; 
+		font-size: 28px;
+	}
+	.aButton
+	{		 
+	        text-decoration: none; cursor: pointer;
+	        text-decoration: underline !important;
+	        font-size: 19px;
+	}
+
+	 .h1, h1 {	    
+	    max-width: 100%  !important;	   
+	    font-weight: 200 !important;
+	    line-height: 1.11 !important;
+	    letter-spacing: -1.2px !important;
+	    margin: auto !important;
+	   /* padding: 10px 100px  !important; */
+	   padding: 15px;
+	}
+	textarea.form-control {
+	    height: 100px !important;
+	}
+	.labelFormH1 {	   
+	    font-weight: normal !important;	     
+	}
+    a{
+		font-size:14px;		
+		cursor:pointer;
+			
+	}
+	#ctl00_m_g_46df49d9_2ff8_4d5e_ba5b_7b4822ad85e1_ctl00_aPostiveDeclaration,#ctl00_m_g_ec1676c9_bf4b_40ca_a628_ed2773e21382_ctl00_aPostiveDeclaration {
+	    color: red;
+	    text-decoration: none;
+	    font-weight: bold;
+	}
+    img {
+        display: block;
+        max-width: 100%;
+        max-height: 68px;
+        width: auto;
+        height: auto;
+    }
+	.col-lg-4 {	    
+	    padding: 10px;
+	}
+    #s4-leftpanel {
+        display: none;
+    }
+
+    .s4-ca {
+        margin-left: 0px;
+    }
+
+    body {
+        overflow-x: hidden !important;
+        font-family: Muli,sans-serif !important;
+        font-size: 16px !important;        
+    }
+
+    #start-page-main-container #start-page-title {
+        margin: 80px 29px 56px 39px;
+    }
+
+    .blue-bg {
+        background-color: #2f60ce !important;
+        color: #fff !important;
+        width: 97%;
+        margin: auto;
+    }
+
+    #start-page-main-container #start-page-title h1 {
+        max-width: 968px;        
+        font-weight: 200;
+        line-height: 1.11;
+        letter-spacing: -1.2px;
+        margin: auto;
+        /*padding: 10px 100px;*/
+    }
+
+    .padded-view {
+        padding: 16px 100px;
+        margin: auto;
+    }
+
+    .standard-padding {
+        
+        margin: 0 auto 0px;
+    }
+
+    #start-page-req #start-page-req-content {
+        display: inline-block;
+        text-align: left;
+        padding-bottom: 45px;
+        border-bottom: 2px solid hsla(0,0%,72.2%,.61);
+        width: 100%;
+    }
+
+        #start-page-req #start-page-req-content > h3 {
+            margin-bottom: 0;
+        }
+
+    .blue-font, .blue-label {
+        color: #2f60ce !important;
+    }
+
+    .no-margin {
+        margin: 0;
+    }
+
+    .h3, h3 {
+        font-size: 24px !important;
+    }
+
+    #start-page-req #start-page-req-content > p {
+        margin-top: 26px;
+        margin-bottom: 0;
+        line-height: 1.67;
+        color: #484848;
+    }
+
+    #start-page-req #start-page-req-content {
+        display: inline-block;
+        text-align: left;
+        padding-bottom: 45px;
+        border-bottom: 2px solid #c7c7c7;
+        width: 100%;
+    }
+
+    .form-control {
+        width: 100% !important;
+        font-size: 15px !important;
+        padding: 5px !important;
+        height: 41px !important;
+        display: block;
+        height: 47px !important;
+        padding: 8px 14px !important;
+        font-size: 18px !important;
+        line-height: 1.4285;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 0px !important;
+         
+    }
+
+    .field-group .field-question {
+        margin-bottom: 15px;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    .field-group .field-number {
+        font-size: 15px;
+        font-weight: 600;
+        color: #323232;
+        margin-right: 15px;
+    }
+
+    .field-group .field-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #323232;
+    }
+
+    .form-group {
+        width: 46% !important;
+        margin: auto !important;
+        padding-bottom: 8px;
+    }
+
+   .SubmitButton {
+        color: #fff !important;
+        background: #2f60ce !important;
+        border-color: #007bff !important;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        border: 1px solid transparent;
+        padding: .5rem 1rem;
+        font-size: 20px !important;
+        line-height: 1.5;
+        display: block;
+        width: 100% !important;
+        height: 40px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 5px;
+    }
+    
+     .SubmitButtonRed {
+        color: #fff !important;
+        background: Red !important;
+        border-color: Red !important;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        border: 1px solid transparent;
+        padding: .5rem 1rem;
+        font-size: 20px !important;
+        line-height: 1.5;
+        display: block;
+        width: 100% !important;
+        height: 40px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 5px;
+    }
+
+    #s4-titlerow {
+        display: none;
+    }
+
+    label {
+        width: 100% !important;
+        max-width: 500px !important;
+        font-size: 18px;
+    }
+
+    .field-group .field-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #323232;
+    }
+
+    .lblHeading {
+        font-size: 18px;
+        font-weight: normal;
+        color: #323232;
+    }
+	#ctl00_m_g_4f340490_8c5f_4c76_b7d2_e8c4dd337de1_ctl00_lblRedMessage, #ctl00_m_g_4f340490_8c5f_4c76_b7d2_e8c4dd337de1_ctl00_lblMessage{
+		
+		font-size: 31px;
+	}
+    .ng-binding {
+        margin-bottom: 0;
+        line-height: 1.2;
+        color: #131313;
+        font-size: 15px;
+        padding: 4px !important;
+        text-align:center;
+    }
+
+    pageCss {
+        font-family: Muli,sans-serif !important;
+        background-color: #fff;
+    }
+
+    .radio {
+        margin-left: 40px !important;
+    }
+
+    .field-group .field-description {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: justify;
+        white-space: pre-wrap;
+        margin-top: 6px;
+    }
+
+    .headingNew {
+        font-size: 26px !important;
+        color: #2f60ce !important;
+    }
+
+    input[type="radio"] {
+        font-size: 18px !important;
+        cursor: pointer;
+        display: inline-block;
+        height: 15px;
+        margin-right: 15px;
+        position: relative;
+        width: 15px;
+        margin-left: -55px;
+    }
+    span{
+		font-size:18px;	
+	}
+	.panel-body{
+		
+		width:70%;
+		margin:auto;
+	}
+	.SuccessHeadingAlign{
+		width: 90%;
+	    margin: auto;
+	    text-align: center;
+	    
+	}
+    @media screen and (min-device-width: 350px) and (max-device-width: 550px) {
+     .tomsTTAIcon
+	    {
+			max-width: 100%;
+		    max-height: 100% !important;
+			width: auto !important;
+			height: 252px !important;
+			display: inline !important;			
+		}
+
+
+    	.paraSuccess {
+		    font-size: 51px !important;
+		}
+	    .sessionGreen
+	    {
+	      color:white;font-size: 145px !important;
+	
+	    }
+	    h2
+	    {
+	     font-size:34px !important;
+	
+	    }
+
+		.sessionGreen1
+		{
+			
+			font-size: 115px !important;
+		
+		}
+
+		.lblPopupData
+		{
+			
+			font-size: 54px !important;
+		
+		}
+		.declareCss
+		{
+			    font-size: 45px !important;
+
+			
+		}
+
+    	.panel-body{			
+			width:95%;
+			 
+		}
+		a{
+			font-size:41px !important;		
+		}
+		.SuccessHeadingAlign{		 
+		    padding: 12px;		}
+
+		img {		    
+		    max-height: 100px !important;		   
+		}
+		 .h1, h1 {	   
+		    
+		   padding: 15px !important;
+		}
+
+		.container{
+			font-size:40px !important;
+			padding-left:84px !important;
+		}
+		.checkmark{
+		  height:51px !important;
+		  width:51px !important;	
+		}
+        .padded-view {
+            padding: 16px;
+        }
+        #start-page-main-container #start-page-title {
+            margin: 101px 58px 93px 39px;
+            text-align: center;
+            padding: 36px;
+        }
+        #start-page-main-container #start-page-title h1 {
+              
+                padding-top: 0px !important;
+            }
+
+        .form-group {
+            width: 95% !important;
+            padding: 15px !important;
+            
+        }
+		.SubmitButton{
+			
+			font-size:45px !important;
+			height:100px !important;
+		}
+		.SubmitButtonRed{
+			
+			font-size:45px !important;
+			height:100px !important;
+		}
+
+        .panel-body {
+            margin-left: 0px;
+        }
+
+        .lblHeading {
+            font-size: 40px;
+             padding-bottom: 22px;
+        }
+
+        .ng-binding {
+            font-size: 31px;
+            line-height: 1.6 !important;
+        }
+ 
+        .form-control {
+            height: 81px !important;            
+    		font-size: 40px !important;
+ 
+
+        }
+
+        .standard-padding {
+           
+            margin: 0 auto 0px;
+        }
+
+        .headingNew {
+            font-size: 44px !important;
+        }
+
+        .radio {
+            margin-left: 40px !important;
+        }
+
+        .SubmitButton {
+            color: #fff !important;
+            background-color: #007bff !important;            
+            border-color: #007bff !important;         
+             height: 100px;
+           
+        }
+         .SubmitButtonRed {
+            color: #fff !important;
+            background-color: Red !important;            
+            border-color: Red !important;         
+             height: 100px;
+           
+        }
+
+        span{
+			font-size: 45px !important;
+		}
+		 
+		input[type=checkbox] {
+		    -ms-transform: scale(3) !important;
+		    -moz-transform: scale(3) !important;
+		    -webkit-transform: scale(3) !important;
+		    -o-transform: scale(3) !important;
+		    transform: scale(3) !important;
+		    padding: 13px !important;
+		}
+		.container .checkmark::after {
+	    top: 12px !important;
+	    left: 14px !important;
+	    width: 20px !important;
+	    height: 20px !important;
+	     
+		}
+	
+
+    }
+    @media (min-width: 700px) {
+        .standard-padding {
+         
+            margin: 0 auto 0px;
+        }
+
+        .form-group {
+            width: 95% !important;
+            margin: auto !important;
+            
+        }
+
+        .control-label {
+            width: 25%;
+            text-align: left !important;
+        }
+
+        .col-sm-12 {
+            width: 100%;
+        }
+
+        .form-controlMultiline {
+            width: 780px !important;
+        }
+
+        .SubmitButton {
+            color: #fff !important;
+            background-color: #007bff !important;             
+            border-color: #007bff !important;           
+            border-radius: 0px !important;
+            height: 50px;
+        }
+         .SubmitButtonRed {
+            color: #fff !important;
+            background-color: Red !important;             
+            border-color: Red !important;           
+            border-radius: 0px !important;
+            height: 50px;
+        }
+
+        
+    }
+    .seperator {
+        border: none !important;
+    }
+    /*slider check*/
+    .switch {
+        position: relative;
+        display: inline-block;
+        /*width: 60px;
+        height: 34px;*/
+        width: 54px !important;
+        height: 32px;
+    }
+    .switch input {
+            display: none;
+     }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+   .slider:before {
+            position: absolute;
+            content: "";
+            height: 17px;
+            width: 17px;
+            left: 4px;
+            bottom: 10px !important;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+    }
+
+    input:checked + .slider {
+        background-color: #419641;
+    }
+    input:focus + .slider {
+        box-shadow: 0 0 1px #419641;
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+    .ribbonbackground {
+        display: none !important;
+    }
+    
