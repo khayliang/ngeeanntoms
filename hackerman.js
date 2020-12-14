@@ -3,12 +3,13 @@ $(document).ready(function () {
 
   let hour = d.getHours()
   let am = "AM"
+  if(hour>11){
+  am = "PM"
+  }
   if (hour>12){
     hour = hour-12
   }
-  if(hour>11){
-    am = "PM"
-  }
+
   const formattedHour = ("0" + hour).slice(-2);
 
   const minute = d.getMinutes()
