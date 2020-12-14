@@ -27,9 +27,10 @@ $(document).ready(function () {
 
   const firstNames = ["HSIEN LOONG", "AMOS", "JAY", "ANDREW", "JANE", "SARAH", "COLLIN", "JOSHUA", "WEI MING", "ANDERSON", "NOAH", "WILLIAM", "EMMAH", "JING WEI", "ZHENG JIE", "WEI MING", "JIE SHAO", "JIA SHAO"]
   const surNames = ["LEE", "YEE", "CHOU", "TAN", "LEE", "LIM", "LI", "LAW", "TOSHIBA", "MURAMOTO", "JIANG", "NG", "WEE", "SIVARAJASINGAM", "SOH", "HO", "CHIA", "CHUA"]
-  random15 = Math.floor(Math.random() * 15);
-  const name = `${firstNames[random15]} ${surNames[random15]}`
-  $('#name1').text(name);
+  random1 = Math.floor(Math.random() * 15);
+  random2 = Math.floor(Math.random() * 15);
+
+  const name = `${firstNames[random1]} ${surNames[random2]}`  $('#name1').text(name);
   $('#name2').text(name);
 
   function getRndInteger(min, max) {
