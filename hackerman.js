@@ -30,7 +30,8 @@ $(document).ready(function () {
   random1 = Math.floor(Math.random() * 15);
   random2 = Math.floor(Math.random() * 15);
 
-  const name = `${firstNames[random1]} ${surNames[random2]}`  $('#name1').text(name);
+  const name = `${firstNames[random1]} ${surNames[random2]}`;
+  $('#name1').text(name);
   $('#name2').text(name);
 
   function getRndInteger(min, max) {
